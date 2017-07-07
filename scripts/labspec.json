@@ -92,7 +92,7 @@
         },
         "installer": [
           "apt-get update",
-          "apt-get install python-pip python-dev nginx",
+          "apt-get install nginx",
           "pip install gunicorn flask"
         ],
         "lab_actions": {
