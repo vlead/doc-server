@@ -92,7 +92,9 @@
         },
         "installer": [
           "apt-get update -y",
-          "apt-get install nginx -y"
+          "apt-get install nginx -y",
+          "service apache2 stop",
+	  "service nginx start"
         ],
         "lab_actions": {
           "init"    : [],
