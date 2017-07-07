@@ -91,9 +91,8 @@
           "min_required": "10gb"
         },
         "installer": [
-          "apt-get update",
-          "apt-get install nginx",
-          "pip install gunicorn flask"
+          "apt-get update -y",
+          "apt-get install nginx -y"
         ],
         "lab_actions": {
           "init"    : [],
